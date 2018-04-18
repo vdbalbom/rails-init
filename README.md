@@ -1,24 +1,32 @@
-# README
+# rails-init
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Dependences
 
-Things you may want to cover:
+- docker
+- docker-compose
+- make
 
-* Ruby version
+### To Build
+```[bash]
+$ make build
+```
 
-* System dependencies
+### To Test
+```[bash]
+$ make run-test
+```
 
-* Configuration
+### To Run in DEV Environment
+```[bash]
+$ make run-dev
+```
 
-* Database creation
+### To Run in PROD Environment
+```[bash]
+$ make run-prod
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### To Run in PROD Environment - Detached
+```[bash]
+$ make run-prod-detached
+```
